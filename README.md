@@ -35,7 +35,7 @@ Each item in the queue is color-coded to differentiate between them, and a messa
 ## Contributing
 We welcome contributions to the Queue Visualizer project! If you would like to contribute, please follow these steps:
 
-1. **Fork the Repository**: Go to the [Queue Visualizer repository](https://github.com/Balaji91221/queue-visualizer) and click the "Fork" button to create a copy of the repository on your GitHub account.
+1. **Fork the Repository**: Go to the [Queue Visualizer repository](https://github.com/Balaji91221/queue-visualization) and click the "Fork" button to create a copy of the repository on your GitHub account.
 
 2. **Clone the Forked Repository**: Clone the forked repository to your local machine.
 
