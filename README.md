@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Queue Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Queue Visualizer is a simple React application that visually demonstrates queue operations such as **enqueue** and **dequeue**. This project is a great way to understand how a queue works and to see the First In, First Out (FIFO) principle in action. The application allows users to add values to a queue, view them as they are added, and remove them from the queue.
 
-## Available Scripts
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
+## Features
+- Add (Enqueue) items to the queue
+- Remove (Dequeue) items from the queue
+- Visualize the queue contents with color-coded items
+- Displays user messages for queue operations
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
+![alt text]({FA298845-BC4E-48B2-99B6-DACF6DB5A698}.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- [Node.js](https://nodejs.org/) installed on your machine
+- [Git](https://git-scm.com/) for version control (optional)
 
-### `npm test`
+## Usage
+1. **Enter a Value**: Type a value into the input field provided at the top of the application.
+2. **Enqueue**: Click the "Enqueue" button to add the value to the end of the queue. The queue follows the First In, First Out (FIFO) principle, so the first item added will be the first to be removed.
+3. **Dequeue**: Click the "Dequeue" button to remove the front item from the queue. If the queue is empty, a message will display indicating that the queue is empty.
+4. **Keyboard Shortcut**: You can press the **Enter** key to quickly enqueue the value entered in the input field onto the queue.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Each item in the queue is color-coded to differentiate between them, and a message is displayed below the buttons to confirm each action.
 
-### `npm run build`
+## Contributing
+We welcome contributions to the Queue Visualizer project! If you would like to contribute, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Fork the Repository**: Go to the [Queue Visualizer repository](https://github.com/Balaji91221/queue-visualizer) and click the "Fork" button to create a copy of the repository on your GitHub account.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Clone the Forked Repository**: Clone the forked repository to your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
